@@ -1,5 +1,5 @@
 
-import React, { useState, useRef, useEffect } from 'react';
+  import React, { useState, useRef, useEffect } from 'react';
 import { Bot, Send, X, Loader2, Sparkles } from 'lucide-react';
 import { chatWithShivamAI } from '../services/geminiService';
 
