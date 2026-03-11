@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+ import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Terminal, Rocket, Award, ShieldCheck, Cpu, Mail } from 'lucide-react';
 import profile from './assest/profile.png';
 
