@@ -221,7 +221,7 @@ export const PROJECTS: Project[] = [
       { label: 'Avg Session', value: '1.1 K' }
     ],
     links: [
-      { label: 'Demo', url: 'https://fitnationn.vercel.app/' },
+       { label: 'Demo', url: 'https://fitnationn.vercel.app/' },
       { label: 'Source', url: 'https://github.com/shiv578/Fitnationproject' }
     ]
   },
