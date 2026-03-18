@@ -17,8 +17,7 @@ const Projects: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {PROJECTS.map((project, idx) => (
             <div key={idx} className="glass-card rounded-xl overflow-hidden flex flex-col group border-white/5 hover:border-secondary/40 transition-all duration-700">
-              <div className="relative h-64 overflow-hidden">
-   <img 
+<div className="relative h-80 md:h-96 overflow-hidden">   <img 
   src={
     project.title === "Fit Nation"
       ? fitnationPreview

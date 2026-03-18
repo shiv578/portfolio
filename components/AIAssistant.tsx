@@ -38,7 +38,6 @@ const AIAssistant: React.FC = () => {
           onClick={() => setIsOpen(true)}
           className="w-14 h-14 bg-gradient-to-tr from-primary to-secondary rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(0,212,255,0.4)] hover:scale-110 transition-all group"
         >
-          <Bot className="text-darker-bg w-8 h-8 group-hover:rotate-12 transition-transform" />
           <div className="absolute -top-1 -right-1 w-4 h-4 bg-tertiary rounded-full border-2 border-darker-bg animate-pulse" />
         </button>
       ) : (

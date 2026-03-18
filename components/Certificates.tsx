@@ -9,7 +9,7 @@ const Certificates: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 text-center">
           <h2 className="text-4xl md:text-7xl font-heading font-black mb-4">
-            VERIFIED <span className="text-gradient">CREDENTIALS</span>
+            TECHNICAL<span className="text-gradient"> SKILLS</span>
           </h2>
           <p className="text-white/40 font-code text-sm tracking-widest uppercase">Digital Ledger Archive | Proof of Competence</p>
         </div>

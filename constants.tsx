@@ -20,7 +20,44 @@ export interface Certificate {
 }
 
 export const TIMELINE_DATA: (TimelineItem & { detailedProfile?: any })[] = [
+
+    {
+    id: 'lpu',
+    type: 'UNIVERSITY',
+    title: 'BTech Computer Science & Engineering',
+    institution: 'Lovely Professional University (LPU)',
+    period: '2024 - 2027',
+    performance: '8.1 CGPA (Current)',
+    description: "India's largest private university. Successfully transitioned from hardware (Mechatronics) to scalable software architecture.",
+    achievements: [
+     
+    ],
+    visuals: lpu,
+    detailedProfile: {
+      naac: 'A++ Grade',
+      nirf: '31st (Univ Rank)',
+    }
+  },
+
   {
+    id: 'diploma',
+    type: 'DIPLOMA',
+    title: 'Diploma in Mechatronics',
+    institution: 'Tool Room & Training Centre (MSME-GOI)',
+    period: '2020 - 2023',
+    performance: '70.93% | First Division',
+    description: 'Government of India Autonomous Institute. Specialized in robotics, automation, and industrial systems.',
+    achievements: [
+      
+    ],
+    visuals: diploma,
+    detailedProfile: {
+      parentBody: 'Ministry of MSME, Govt of India',
+      accreditation: 'NCVT, DGT',
+      specialization: 'Industrial Automation'
+    }
+  },
+    {
     id: 'ccds',
     type: 'SCHOOL',
     title: 'Matriculation',
@@ -40,42 +77,8 @@ export const TIMELINE_DATA: (TimelineItem & { detailedProfile?: any })[] = [
       legacy: '53+ Years of Excellence',
       campus: 'Peacock Block (Patna)'
     }
-  },
-  {
-    id: 'diploma',
-    type: 'DIPLOMA',
-    title: 'Diploma in Mechatronics',
-    institution: 'Tool Room & Training Centre (MSME-GOI)',
-    period: '2020 - 2023',
-    performance: '70.93% | First Division',
-    description: 'Government of India Autonomous Institute. Specialized in robotics, automation, and industrial systems.',
-    achievements: [
-      
-    ],
-    visuals: diploma,
-    detailedProfile: {
-      parentBody: 'Ministry of MSME, Govt of India',
-      accreditation: 'NCVT, DGT',
-      specialization: 'Industrial Automation'
-    }
-  },
-  {
-    id: 'lpu',
-    type: 'UNIVERSITY',
-    title: 'BTech Computer Science & Engineering',
-    institution: 'Lovely Professional University (LPU)',
-    period: '2024 - 2027',
-    performance: '8.1 CGPA (Current)',
-    description: "India's largest private university. Successfully transitioned from hardware (Mechatronics) to scalable software architecture.",
-    achievements: [
-     
-    ],
-    visuals: lpu,
-    detailedProfile: {
-      naac: 'A++ Grade',
-      nirf: '31st (Univ Rank)',
-    }
   }
+
 ];
 
 export const SKILLS: Skill[] = [
@@ -125,7 +128,7 @@ export const CERTIFICATES: Certificate[] = [
     title: 'AI-Powered NLP',
     provider: 'Algo Tutor',
     date: 'June 2025',
-    duration: '45 Hours',
+    duration: '2 Month',
     grade: 'O Grade (91%)',
     credentialId: 'ALGO-NLP-2025-0678',
     verifyLink: 'https://drive.google.com/file/d/1_E97p6pYHuN_e_XMCCWHZj193xLLFn4z/view?usp=sharing',
@@ -168,7 +171,7 @@ export const CERTIFICATES: Certificate[] = [
   title: "Oops In Cpp",
   provider: "Neo Colab",
   date: "Dec 05, 2024",
-  duration: "72 Hours",
+  duration: "4 Month",
   category: "Programming",
   credentialId: "LPU-375o95p95q9D33d87",
   grade: "Successfully Completed",
@@ -187,7 +190,7 @@ export const CERTIFICATES: Certificate[] = [
   title: "Data Structures and Algorithm",
   provider: "Lovely Professional University",
   date: "Dec 05, 2024",
-  duration: "72 Hours",
+  duration: "Month",
   category: "Data Structures",
   credentialId: "LPU-20c16B61CJ2DK30L8",
   grade: "Successfully Completed",

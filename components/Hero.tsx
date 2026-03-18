@@ -1,6 +1,6 @@
  import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Terminal, Rocket, Award, ShieldCheck, Cpu, Mail } from 'lucide-react';
-import profile from './assest/profile.png';
+import profile from './assest/profile3.png';
 
 const ROLES = [
   "Backend Architect",
@@ -107,9 +107,7 @@ const Hero: React.FC = () => {
               <span className="w-1 h-6 lg:h-7 bg-primary animate-pulse shadow-[0_0_15px_#00f2ff]"></span>
             </div>
 
-            <p className="max-w-md lg:max-w-lg text-white/50 font-body leading-relaxed text-sm sm:text-base mx-auto lg:mx-0">
-              Architecting the next generation of scalable systems. Transforming complex hardware logic from Mechatronics into seamless software ecosystems.
-            </p>
+          
           </div>
 
           {/* HUD BUTTONS */}

@@ -7,7 +7,7 @@ import SkillsGrid from './components/SkillsGrid';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import AIAssistant from './components/AIAssistant';
-
+import About from "./components/About";
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,6 +45,8 @@ const App: React.FC = () => {
       
       <main className="relative z-10 gpu-accelerated">
         <Hero />
+          <About />
+
         
         <div id="experience" className="animate-in fade-in slide-in-from-bottom duration-1000 delay-500">
           <Timeline />

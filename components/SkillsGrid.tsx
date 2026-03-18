@@ -41,7 +41,7 @@ const SkillsGrid: React.FC = () => {
               <div className="mt-6">
                 <div className="flex justify-between text-[10px] text-white/40 mb-1 font-code">
                   <span>SYNC_DATA</span>
-                  <span>100%</span>
+                  <span>80%</span>
                 </div>
                 <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-primary to-secondary w-full animate-pulse" />
