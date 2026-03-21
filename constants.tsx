@@ -251,3 +251,14 @@ export const PROJECTS: Project[] = [
     ]
   }
 ];
+export const ACHIEVEMENTS = [
+  {
+    title: "🔥 100 Days LeetCode Streak",
+    description: "Solved 100 consecutive days of LeetCode problems, strengthening DSA, consistency, and analytical thinking.",
+  },
+
+  {
+    title: "🏆 Finalist - ZEN Hack 2026",
+    description: "Selected as a finalist in ZEN Hack 2026 at IIIT Manipur, showcasing strong problem-solving, teamwork, and innovation skills.",
+  }
+];

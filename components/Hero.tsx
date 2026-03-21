@@ -44,7 +44,20 @@ const Hero: React.FC = () => {
   }, [displayText, isDeleting, roleIndex]);
 
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center px-6 py-12 lg:py-0 lg:px-24 bg-dark-bg overflow-hidden">
+<section className="relative min-h-screen w-full flex items-center justify-center px-6 py-12 lg:py-0 lg:px-24 overflow-hidden">
+  <div className="absolute inset-0 -z-10 
+  bg-[radial-gradient(circle_at_20%_30%,rgba(0,242,255,0.15),transparent_40%),
+      radial-gradient(circle_at_80%_70%,rgba(168,85,247,0.15),transparent_40%)]" />
+
+{/* 🔥 Floating Light Orbs */}
+<div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-cyan-500/20 blur-[150px] rounded-full -z-10 animate-pulse" />
+<div className="absolute -bottom-40 -right-40 w-[500px] h-[500px] bg-purple-500/20 blur-[150px] rounded-full -z-10 animate-pulse" />
+
+{/* 🔥 Subtle Cyber Grid */}
+<div className="absolute inset-0 -z-10 opacity-10
+  bg-[linear-gradient(to_right,#1f2937_1px,transparent_1px),
+      linear-gradient(to_bottom,#1f2937_1px,transparent_1px)]
+  bg-[size:3rem_3rem]" />
       <div className="max-w-7xl w-full flex flex-col lg:grid lg:grid-cols-2 gap-10 lg:gap-16 items-center z-10">
         
         {/* TOP FOR MOBILE / RIGHT FOR DESKTOP: Profile Photo */}
@@ -145,6 +158,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 

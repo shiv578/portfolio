@@ -9,6 +9,7 @@ import Certificates from './components/Certificates';
 import AIAssistant from './components/AIAssistant';
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Achievements from "./components/Achievements";
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -64,6 +65,7 @@ const App: React.FC = () => {
         <div id="credentials">
           <Certificates />
         </div>
+        <Achievements />
                 <Contact />
 
 
@@ -100,7 +102,6 @@ const App: React.FC = () => {
         </footer>
       </main>
 
-      <AIAssistant />
 
       {/* Smooth Global Cursor (Hardware accelerated) */}
       <div 
