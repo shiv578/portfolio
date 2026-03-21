@@ -8,7 +8,7 @@ const SkillsGrid: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-6xl font-heading font-black mb-4">
-            TECH <span className="text-primary">STACK</span>
+            TECHNICAL <span className="text-primary">SKILLS</span>
           </h2>
           <div className="hud-line max-w-md mx-auto" />
         </div>

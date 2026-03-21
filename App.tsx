@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import AIAssistant from './components/AIAssistant';
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -63,6 +64,8 @@ const App: React.FC = () => {
         <div id="credentials">
           <Certificates />
         </div>
+                <Contact />
+
 
         {/* Final CTA Card */}
         <section className="py-32 px-4 text-center">

@@ -122,7 +122,7 @@ const Timeline: React.FC = () => {
                         <MapPin size={10} /> SYSTEM_LOCATOR
                       </div>
                       <div className="text-xs font-heading text-white/80 tracking-wide flex justify-between items-center">
-                        <span>{item.institution.split(',')[1] || 'Patna, Bihar'}</span>
+                        <span>{item.location || 'India'}</span>
                         {isSchool && <Zap size={12} className="animate-pulse" style={{ color: accentColor }} />}
                       </div>
                     </div>

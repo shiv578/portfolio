@@ -28,6 +28,8 @@ export const TIMELINE_DATA: (TimelineItem & { detailedProfile?: any })[] = [
     institution: 'Lovely Professional University (LPU)',
     period: '2024 - 2027',
     performance: '8.1 CGPA (Current)',
+      location: 'Punjab, India',
+
     description: "India's largest private university. Successfully transitioned from hardware (Mechatronics) to scalable software architecture.",
     achievements: [
      
@@ -46,6 +48,8 @@ export const TIMELINE_DATA: (TimelineItem & { detailedProfile?: any })[] = [
     institution: 'Tool Room & Training Centre (MSME-GOI)',
     period: '2020 - 2023',
     performance: '70.93% | First Division',
+      location: 'Patna, Bihar',
+
     description: 'Government of India Autonomous Institute. Specialized in robotics, automation, and industrial systems.',
     achievements: [
       
@@ -64,6 +68,8 @@ export const TIMELINE_DATA: (TimelineItem & { detailedProfile?: any })[] = [
     institution: 'Christ Church Diocesan School (CCDS), Patna',
     period: '2020 Completion',
     performance: '76.6% | 8.2 CGPA',
+      location: 'Patna, Bihar',
+
     description: "One of Patna's most prestigious Christian Minority institutions, established in 1972. Known for producing IITians and leaders.",
     achievements: [
     
