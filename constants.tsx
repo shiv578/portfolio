@@ -141,16 +141,16 @@ export const CERTIFICATES: Certificate[] = [
     skills: ['NLTK', 'Sentiment Analysis', 'Tokenization'],
     category: 'AI'
   },
-  {
-    title: 'Master Generative AI',
-    provider: 'Infosys Springboard',
-    date: 'Aug 2025',
-    duration: '40 Hours',
-    credentialId: 'INF-GAI-9921',
-    verifyLink: 'https://drive.google.com/file/d/1oC83oGuOnorTZHnDZAL3mx0S94M-xR6R/view?usp=drive_link',
-    skills: ['LLM', 'Prompt Engineering', 'LangChain'],
-    category: 'AI'
-  },
+{
+  title: 'Developing Back-End Apps with Node.js and Express',
+  provider: 'IBM ',
+  date: 'Mar 2026',
+  duration: '',
+  credentialId: '9A7D21A7DV31',
+  verifyLink: 'https://drive.google.com/file/d/1HZxP-mUz5bpxJ6LT3j3VEnPlZ6_6nnMW/view?usp=sharing',
+  skills: ['Node.js', 'Express', 'Backend Development'],
+  category: 'Backend'
+},
   {
     title: 'Cloud Computing Elite',
     provider: 'NPTEL (IIT KGP)',
