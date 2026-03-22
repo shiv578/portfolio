@@ -93,6 +93,7 @@ export const SKILLS: Skill[] = [
     level: 'Legend',
     badge: '5★ HackerRank',
     category: 'PROGRAMMING',
+    percentage: 90,
     details: ['200+ LeetCode Problems', 'Acceptance Rate: 80%', 'Contest Rating: 1,542', 'Global Rank: Top 25%']
   },
   {
@@ -100,6 +101,7 @@ export const SKILLS: Skill[] = [
     level: 'Expert',
     badge: '4★ HackerRank',
     category: 'AI',
+    percentage: 80,
     details: ['Master Generative AI Certified', 'NLP Sentiment Analysis Project', 'Algo Tutor AI Mastery']
   },
   {
@@ -107,25 +109,53 @@ export const SKILLS: Skill[] = [
     level: 'Elite',
     badge: '5★ JS/Node Gold',
     category: 'PROGRAMMING',
+    percentage: 85,
     details: ['Express.js Framework Expert', 'JWT & OAuth 2.0 Auth', 'Real-time WebSocket implementation']
   },
   {
     name: 'PHP',
     level: 'Advanced',
     category: 'PROGRAMMING',
+    percentage: 75,
     details: ['Secure CRUD Architecture', 'Vanilla PHP Property MS', 'XSS & CSRF Protection Expert']
   },
   {
     name: 'DevOps & Cloud',
     level: 'Intermediate',
     category: 'DEVOPS',
+    percentage: 65,
     details: ['NPTEL Elite Certification', 'AWS & Azure Fundamentals', 'Ubuntu Server Administration']
   },
   {
     name: 'Databases',
     level: 'Advanced',
     category: 'DB',
+    percentage: 80,
     details: ['MongoDB Aggregation Pipeline', 'MySQL Index Optimization', 'Normalized 3NF Architectures']
+  },
+  {
+    name: 'React',
+    level: 'Elite',
+    badge: 'Frontend Expert',
+    category: 'FRONTEND',
+    percentage: 85,
+    details: ['Component-based Architecture', 'Hooks & State Management', 'Responsive UI Development']
+  },
+  {
+    name: 'Tailwind CSS',
+    level: 'Advanced',
+    badge: 'UI Specialist',
+    category: 'FRONTEND',
+    percentage: 80,
+    details: ['Utility-first Styling', 'Responsive Design', 'Custom UI Components']
+  },
+  {
+    name: 'Git & GitHub',
+    level: 'Advanced',
+    badge: 'Version Control',
+    category: 'TOOLS',
+    percentage: 75,
+    details: ['Git Workflow & Branching', 'GitHub Collaboration', 'Version Control Best Practices']
   }
 ];
 

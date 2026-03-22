@@ -16,6 +16,7 @@ export interface Skill {
   level: string;
   badge?: string;
   details: string[];
+  percentage?: number;
   category: 'PROGRAMMING' | 'AI' | 'DEVOPS' | 'DB';
 }
 

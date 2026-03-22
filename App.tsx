@@ -10,6 +10,7 @@ import AIAssistant from './components/AIAssistant';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Achievements from "./components/Achievements";
+import SoftSkills from './components/SoftSkills';
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +58,7 @@ const App: React.FC = () => {
         <div id="skills" className="animate-in fade-in duration-1000 delay-700">
           <SkillsGrid />
         </div>
+        <SoftSkills />
         
         <div id="projects" className="animate-in fade-in slide-in-from-bottom duration-1000 delay-900">
           <Projects />
