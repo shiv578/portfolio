@@ -2,7 +2,7 @@
   import { TimelineItem, Skill, Project } from './types';
 import school from './components/assest/school.png';
 import diploma from './components/assest/diploma.png';
-import lpu from './components/assest/lpu.png';
+ import lpu from './components/assest/lpu.png';
 
 
 
