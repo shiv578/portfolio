@@ -1,5 +1,5 @@
 
- import React, { useEffect, useState, Suspense } from 'react';
+  import React, { useEffect, useState, Suspense } from 'react';
 import CyberBackground from './components/CyberBackground';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
